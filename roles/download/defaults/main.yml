@@ -469,7 +469,7 @@ calico_typha_image_repo: "{{ quay_image_repo }}/calico/typha"
 calico_typha_image_tag: "{{ calico_typha_version }}{%- if image_arch != 'amd64' -%}-{{ image_arch }}{%- endif -%}"
 pod_infra_image_repo: "{{ kube_image_repo }}/pause"
 pod_infra_image_tag: "{{ pod_infra_version }}"
-install_socat_image_repo: "{{ docker_image_repo }}/xueshanf/install-socat"      docker.io/xueshanf/install-socat
+install_socat_image_repo: "{{ docker_image_repo }}/xueshanf/install-socat"
 install_socat_image_tag: "latest"
 netcheck_version: "v1.0"
 netcheck_agent_image_repo: "{{ quay_image_repo }}/l23network/k8s-netchecker-agent"
