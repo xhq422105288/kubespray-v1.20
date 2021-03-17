@@ -93,7 +93,7 @@ crictl_version: "{{ crictl_supported_versions[kube_major_version] }}"
 
 # Download URLs
 # storage_path: "https://storage.googleapis.com/kubernetes-release/release"
-storage_path: "http://registry.connextpaas.com:8899/"
+storage_path: "http://registry.connextpaas.com:8899/kubernetes-release/release"
 kubelet_download_url: "{{ storage_path }}/{{ kube_version }}/bin/linux/{{ image_arch }}/kubelet"
 kubectl_download_url: "{{ storage_path }}/{{ kube_version }}/bin/linux/{{ image_arch }}/kubectl"
 kubeadm_download_url: "{{ storage_path }}/{{ kubeadm_version }}/bin/linux/{{ image_arch }}/kubeadm"
