@@ -53,14 +53,14 @@ kubeadm_version: "{{ kube_version }}"
 etcd_version: v3.4.13
 
 # gcr and kubernetes image repo define
-gcr_image_repo: "registry.connextpaas.com/gcr.io"
+gcr_image_repo: "gcr.io"
 kube_image_repo: "registry.connextpaas.com/k8s.gcr.io"
 
 # docker image repo define
 docker_image_repo: "docker.io"
 
 # quay image repo define
-quay_image_repo: "quay.io"
+quay_image_repo: "registry.connextpaas.com/quay.io"
 
 # TODO(mattymo): Move calico versions to roles/network_plugins/calico/defaults
 # after migration to container download
