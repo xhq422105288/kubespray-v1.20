@@ -53,7 +53,7 @@ kubeadm_version: "{{ kube_version }}"
 etcd_version: v3.4.13
 
 # gcr and kubernetes image repo define
-gcr_image_repo: "gcr.io"
+gcr_image_repo: "registry.connextpaas.com/gcr.io"
 kube_image_repo: "registry.connextpaas.com/k8s.gcr.io"
 
 # docker image repo define
