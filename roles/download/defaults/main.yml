@@ -60,7 +60,7 @@ kube_image_repo: "registry.connextpaas.com/k8s.gcr.io"
 docker_image_repo: "docker.io"
 
 # quay image repo define
-quay_image_repo: "quay.io"
+quay_image_repo: "registry.connextpaas.com/quay.io"
 
 # TODO(mattymo): Move calico versions to roles/network_plugins/calico/defaults
 # after migration to container download
